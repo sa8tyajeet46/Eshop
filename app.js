@@ -10,7 +10,7 @@ const orderRouter = require("./routes/orderRouter");
 const bodyParser = require("body-parser");
 const fileUploader = require("express-fileupload");
 const dotenv = require("dotenv");
-dotenv.config({ path: "./config/config.env" });
+//dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
