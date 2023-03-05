@@ -14,7 +14,7 @@ const dotenv = require("dotenv");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: process.env.HOST,
     credentials: true,
   })
 );
